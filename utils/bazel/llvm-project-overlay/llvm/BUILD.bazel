@@ -397,6 +397,7 @@ cc_library(
         "include/llvm-c/DebugInfo.h",
         "include/llvm/IR/Value.def",
     ],
+    includes = ["include"],
     copts = llvm_copts,
 )
 
