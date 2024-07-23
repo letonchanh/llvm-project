@@ -388,6 +388,7 @@ cc_library(
         [
             "include/llvm/*.h",
             "include/llvm/IR/*.h",
+            "include/llvm/IR/*.def",
         ],
         exclude = [
             "include/llvm/LinkAllPasses.h",
@@ -395,7 +396,6 @@ cc_library(
     ) + [
         "include/llvm-c/Comdat.h",
         "include/llvm-c/DebugInfo.h",
-        "include/llvm/IR/Value.def",
     ],
     includes = ["include"],
     copts = llvm_copts,
