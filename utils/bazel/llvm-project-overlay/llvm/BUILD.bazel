@@ -397,7 +397,7 @@ cc_library(
         "include/llvm-c/Comdat.h",
         "include/llvm-c/DebugInfo.h",
     ],
-    includes = ["include"],
+    # includes = ["include"],
     copts = llvm_copts,
 )
 
