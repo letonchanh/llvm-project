@@ -389,7 +389,6 @@ cc_library(
             "include/llvm/*.h",
             "include/llvm/IR/*.h",
             "include/llvm/IR/*.def",
-            "include/llvm/IR/*.inc",
         ],
         exclude = [
             "include/llvm/LinkAllPasses.h",
